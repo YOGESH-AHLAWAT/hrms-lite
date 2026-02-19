@@ -1,0 +1,14 @@
+# Render Blueprint for HRMS Lite Backend
+services:
+  - type: web
+    name: hrms-lite-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DB_PATH
+        value: /data/hrms_lite.db
+    disk:
+      name: hrms-data
+      mountPath: /data
+      sizeGB: 1
