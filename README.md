@@ -2,7 +2,7 @@
 
 A lightweight, full-stack Human Resource Management System built with **React** (Frontend) and **Python FastAPI** (Backend).
 
-![HRMS Lite Dashboard]([https://via.placeholder.com/800x400?text=HRMS+Lite+Dashboard](https://hrms-lite-three-gamma.vercel.app/?_vercel_share=FoIPFM9ZBtWwd8NAY6SpNsqD5PmTMmeZ))
+![HRMS Lite Dashboard](https://hrms-lite-three-gamma.vercel.app/?_vercel_share=FoIPFM9ZBtWwd8NAY6SpNsqD5PmTMmeZ)
 
 ## 🚀 Features
 
